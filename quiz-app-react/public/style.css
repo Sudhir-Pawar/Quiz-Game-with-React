@@ -1,0 +1,105 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin : 0px 0px;
+    background-color: #f9fcfb; 
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+}
+html{
+    padding: 0px 0px;
+}
+
+h1{
+    color : #004a7c ;
+    margin-top: 0px;
+    font-size: 12rem;
+    margin: 10px auto;
+}
+div.heading{
+    text-align: center;
+}
+div.heading p{
+    color: #188ef5;
+    font-size: 2rem;
+}
+
+div.heading p:hover{
+    color : #004a7c ;
+
+}
+div h2{
+    color: #005691;
+}
+div.marks{
+    text-align: center;
+}
+div.marks h2{
+    font-size: 4rem;
+    color: #005691;
+}
+div.marks p{
+    font-size: 2rem;
+    color: #005691;
+}
+div.gamecard{
+    background-color: white;
+    /* position: relative; */
+    
+    width: 280px;
+    margin: 30px auto 20px auto;
+    border-radius: 7px;
+    text-align: left;
+    padding:10px 20px;
+    box-shadow: 0 1px 5px rgb(138, 137, 137);
+}
+
+div.grid{
+    text-align: center;
+}
+div.gamecard p{
+    color: #005691;
+    white-space: nowrap;
+    font-size: 1rem;
+    margin-bottom: 50px;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;   
+}
+a:-webkit-any-link{
+    text-decoration: none;
+    color: white;
+}
+div.gamecard Button{
+    float: right;
+    color: white;
+    background-color:  #005691;
+    height: 40px;
+    position: relative;
+    bottom: 40px;
+}
+div.marks Button{
+    color: #005691;
+    height: 40px;
+    
+}
+div.gamecard Button:hover{
+    color: #005691;
+    background-color: #e8f1f5;
+}
+a:-webkit-any-link:hover{
+    color: #005691;
+    background-color: #e8f1f5;
+}
+
+div.notFound{
+    text-align: center;
+}
+div.quizQuestions{
+    margin-top: 100px;
+    text-align: center;
+}
+div.quizQuestions h3{
+    color: #005691;
+}
+.MuiTypography-body1{
+    color: white;
+}
